@@ -12,14 +12,13 @@
 /*******************************************/
 body{
   background-color: #F3F7F8;
+  font-family: 'Roboto', sans-serif;
 }
 .sec-one{
   background-color: #F3F7F8;
-  /* background-image:url("../img/landing.png");
-  background-position:right;
-  background-size:cover; */
+height:800px;
 }
-ul{
+.sec-one ul{
   list-style:none;
   display:flex;
   justify-content: flex-end;
@@ -44,7 +43,7 @@ nav li:hover{
 h1{
   font-size:4rem;
   margin-bottom:0;
-  border:solid black 1px;
+  
   width:50%;
 }
 input{
@@ -60,6 +59,7 @@ button{
   border-bottom-right-radius:10px;
   color:white;
   font-size:.9rem;
+  border:orange solid 2px;
 }
 form{
   display:flex;
@@ -71,10 +71,181 @@ form{
   width:100px;
 }
 
-img{
- float:right;
+.landing-pic{
+float:right;
   
 }
+.sec-two{
+  display:flex;
+  justify-content:center;
+  height:800px;
+ background-color:white;
+}
+.about{
+  width:50%;
+  align-self:center;
+  margin-right:300px;
+}
+h3{
+  font-size:4rem;
+  margin:0;
+  
+}
+.about p{
+  width:80%;
+  
+}
+h2{
+  color:orange;
+}
+.about button{
+  width:150px;
+  border-radius:10px;
+}
+.whyy img{
+  
+  width:1200px;
+}
+.whyy{
+  display:flex;
+  
+}
+.sec-three ul{
+  list-style:none;
+  flex-direction:row;
+  display:flex;
+  
+}
+.sec-three{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  height:900px;
+}
+.sec-three .meal-nav li{
+  margin-right:50px;
+  
+}
+.highlight{
+  border-bottom:solid orange 2px;
+  color:orange;
+}
+.sec-three h5{
+  color:orange;
+  font-size:1.2rem;
+}
+.sec-three h6{
+  font-size:4rem;
+  margin:0;
+}
+.meal-nav{
+  border-bottom:solid black 1px;
+}
+.food-photos li,.food-photos-two li{
+  margin-top:0;
+  margin-right:30px;
+}
+.book-section{
+  background-color:white;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  height:1200px;
+  justify-content:center;
+}
+.days{
+  display:flex;
+  margin-left:200px;
+}
+.opening-hours{
+  display:flex;
+  flex-direction:column;
+  
+}
+
+.book-section h5,.book-section h6{
+  margin:0;
+  align-self:center;
+}
+.mtot,.fts{
+  
+  display:flex;
+  flex-direction:column;
+  margin-right:300px;
+  padding:10px;
+}
+.opening-hours img{
+  width:90px;
+  align-self:center;
+  padding:10px;
+}
+.book-section h5{
+  font-size:4rem;
+}
+.hours{
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+}
+.call{
+  display:flex;
+  flex-direction:column;
+  align-self:center;
+  text-align:center;
+}
+.hours{
+  margin-bottom:20px;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.days span{
+ padding:10px;
+}
+
+.times{
+  font-size:1.2rem;
+  font-style:bold;
+}
+.number{
+  color:orange;
+  font-size:2rem;
+  margin-top:10px;
+}
+.testimonials{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  height:600px;
+  align-self:center;
+}
+.last-sec{
+  flex-direction:column;
+  display:flex;
+  align-items:center;
+}
+.text-sec{
+width:40%;
+text-align:center;
+}
+.headings h6{
+  font-size:3rem;
+  color:black;
+  margin:0;
+}
+.headings .tests{
+  color:orange;
+  font-size:1rem;
+  margin:0;
+}
+.headings{
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+  margin-top:100px;
+}
+.book-section h6{
+  color:orange;
+  font-size:1.5rem;
+}
